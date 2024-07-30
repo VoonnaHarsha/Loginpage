@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('iot.jpeg') no-repeat center center fixed; 
+    background-size: cover; 
+    font-family: 'Arial', sans-serif;
+}
+
+#login-container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+#login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+#login-container p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.btn-azure {
+    background-color: #0078D4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.btn-azure:hover {
+    background-color: #005a9e;
+}
+
+.azure-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
